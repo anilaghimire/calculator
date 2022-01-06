@@ -2,12 +2,13 @@ from tkinter import *
 from PIL import Image, ImageTk
 window = Tk()
 window.geometry("500x500")
-img1 = ImageTk.PhotoImage(Image.open("D:/1sem/simple calculator/image/1.JPG").resize((500,500)))
-img2 = ImageTk.PhotoImage(Image.open("D:/1sem/ simple calculator/ image/2.JPG").resize((500,500)))
-img3 = ImageTk.PhotoImage(Image.open("D:/1sem/simple calculator/ image/3.JPG").resize((500,500)))
-img4 = ImageTk.PhotoImage(Image.open("D:/1sem/simple calculator/image/4.JPG").resize((500,500)))
-img5 = ImageTk.PhotoImage(Image.open("D:/1sem/simple calculator/ image/5.JPG").resize((500,500)))
+img1 = ImageTk.PhotoImage(Image.open("image/1.JPG").resize((500,500)))
+img2 = ImageTk.PhotoImage(Image.open("image/2.JPG").resize((500,500)))
+img3 = ImageTk.PhotoImage(Image.open("image/3.JPG").resize((500,500)))
+img4 = ImageTk.PhotoImage(Image.open("image/4.JPG").resize((500,500)))
+img5 = ImageTk.PhotoImage(Image.open("image/5.JPG").resize((500,500)))
 
+List_images = [1, 2, 3, 4, 5 ]
 
 count = 1
 label = Label()
